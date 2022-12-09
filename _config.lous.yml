@@ -10,6 +10,9 @@ license:
 rss:
   path: atom.xml
 
+katex:
+  enable: true
+
 analytics:
   enable: true
   gtag: UA-176843375-1

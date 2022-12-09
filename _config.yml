@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: joshuaw
+subtitle: 'Test'
+description: 'A small blog about programming'
 keywords:
-author: John Doe
+author: Joshua Weber
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://joshuaw.de
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -98,6 +98,18 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: lous
+
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  autodiscovery: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

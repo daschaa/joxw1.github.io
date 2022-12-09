@@ -1,0 +1,15 @@
+favicon: images/avatar.png
+
+copyright:
+  name: Joshua Weber
+
+license:
+  name: CC-BY-NC-SA 4.0
+  url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+rss:
+  path: atom.xml
+
+analytics:
+  enable: true
+  gtag: UA-176843375-1
